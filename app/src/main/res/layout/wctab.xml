@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:cai="http://schemas.android.com/apk/res-auto"
+        android:orientation="vertical" android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="@color/biaoti">
+
+            <TextView
+                android:id="@+id/textView2"
+                style="@style/Text.Title"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="厕所"
+                android:gravity="center" />
+
+            <Button
+                android:id="@+id/wc_fan_hui"
+                style="@style/Text.Title_Button"
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:background="@drawable/fanhui1"
+                android:drawablePadding="6dp"
+                android:layout_marginTop="4dp"
+                android:gravity="center"
+                android:layout_marginLeft="10dp"
+                android:onClick="titleOnClick"
+                android:paddingLeft="5dp"
+                />
+
+            <Button
+                android:id="@+id/shuaxin"
+                style="@style/Text.Title_Button"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_alignParentRight="true"
+                android:background="@drawable/shuaxin1"
+                android:layout_marginTop="4dp"
+                android:layout_marginRight="10dp"
+                android:gravity="center"
+                android:onClick="titleOnClick"
+                android:paddingRight="5dp"
+                />
+        </RelativeLayout>
+        <com.androidjob.zhinengjiudian.kefang.ViewPagerIndicator
+            android:id="@+id/wIndicator"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:background="@color/biaoti"
+            android:orientation="horizontal"
+            cai:visible_tab_count="2">
+
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="排气扇"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+            <TextView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="match_parent"
+                android:text="厕所灯"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:gravity="center"/>
+
+
+        </com.androidjob.zhinengjiudian.kefang.ViewPagerIndicator>
+        <android.support.v4.view.ViewPager
+            android:id="@+id/wViewpager"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1">
+
+        </android.support.v4.view.ViewPager>
+    </LinearLayout>

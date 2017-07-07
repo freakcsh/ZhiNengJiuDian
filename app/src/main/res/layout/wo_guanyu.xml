@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/biaoti">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="关于"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/me_fan_hui"
+            style="@style/Text.Title_Button"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fanhui1"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:onClick="titleOnClick"
+            android:paddingLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/shuaxin"
+            style="@style/Text.Title_Button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shuaxin1"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="titleOnClick"
+            android:paddingRight="5dp"
+            />
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:weightSum="1"
+        android:layout_weight="0.07">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="65dp"
+            android:id="@+id/imageView4"
+            android:src="@mipmap/ic_launcher"
+            android:layout_weight="0.05"
+            android:layout_gravity="center_vertical"
+            android:layout_marginLeft="160dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="最新版本：V2.70"
+            android:textSize="20dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="110dp" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="去评分"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton1"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/right"
+            android:background="#ffffff"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="功能介绍"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton2"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/right"
+            android:background="#ffffff"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="系统通知"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton3"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/right"
+            android:background="#ffffff"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="投诉"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton4"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/right"
+            android:background="#ffffff"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+</LinearLayout>

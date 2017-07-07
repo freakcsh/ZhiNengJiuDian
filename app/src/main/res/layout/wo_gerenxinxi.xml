@@ -1,0 +1,187 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/biaoti">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="个人信息"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/fanghui"
+            style="@style/Text.Title_Button"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fanhui1"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:onClick="titleOnClick"
+            android:paddingLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/shuaxin"
+            style="@style/Text.Title_Button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shuaxin1"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="titleOnClick"
+            android:paddingRight="5dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="头像"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:src="@mipmap/ic_launcher"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/wo_right"
+            android:background="#ffffff"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+       >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="昵称"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="10dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="120dp"
+            android:layout_marginTop="10dp"
+            android:text="飞鸟"
+            android:textSize="20dp"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageButton1"
+            android:layout_alignParentEnd="true"
+            android:src="@drawable/wo_right"
+            android:background="#ffffff"
+            android:layout_alignParentTop="true" />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/white_gray"
+        android:layout_weight="0.05">
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="性别"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginLeft="120dp"
+            android:text="x"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="姓名"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginLeft="120dp"
+            android:text="xxx"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="20dp"
+        android:background="@color/dim_foreground_disabled_material_dark"
+        android:layout_weight="0.05">
+
+    </LinearLayout>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/abc_edit_text_material">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:text="手机号码"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            android:gravity="center"
+            android:layout_marginLeft="120dp"
+            android:text="xxxxxxxxxx"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+</LinearLayout>

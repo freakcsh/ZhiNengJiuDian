@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:cai="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.androidjob.zhinengjiudian.MainActivity">
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/id_viewpager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" >
+    </android.support.v4.view.ViewPager>
+
+
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="60dp"
+    android:background="@drawable/tab_bg"
+    android:orientation="horizontal" >
+
+        <com.androidjob.zhinengjiudian.ChangeColorIconWithText
+            android:id="@+id/id_indicator_one"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            cai:icon="@drawable/my_hotel_icon_press"
+            cai:text="@string/tab_contact"
+            cai:text_size="12sp"
+            cai:color="#ff45c01a"
+            />
+        <com.androidjob.zhinengjiudian.ChangeColorIconWithText
+            android:id="@+id/id_indicator_two"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            cai:icon="@drawable/gn"
+            cai:text="@string/tab_found"
+            cai:text_size="12sp"
+            cai:color="#ff45c01a"
+            />
+        <com.androidjob.zhinengjiudian.ChangeColorIconWithText
+            android:id="@+id/id_indicator_three"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            cai:icon="@drawable/zn"
+            cai:text="@string/gongneng"
+            cai:text_size="12sp"
+            cai:color="#ff45c01a"
+            />
+        <com.androidjob.zhinengjiudian.ChangeColorIconWithText
+            android:id="@+id/id_indicator_four"
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1"
+            android:padding="5dp"
+            cai:icon="@drawable/me"
+            cai:text="@string/tab_me"
+            cai:text_size="12sp"
+            cai:color="#ff45c01a"
+            />
+    </LinearLayout>
+
+</LinearLayout>

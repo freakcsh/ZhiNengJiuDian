@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/tvLayout"
+    android:orientation="vertical">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/tv_background"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginTop="20dp"
+            android:layout_weight="1.2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <ImageButton
+                    android:id="@+id/tv_on"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginLeft="30dp"
+                    android:background="@drawable/tv_kai" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="right">
+
+                <ImageButton
+                    android:id="@+id/tv_sm"
+                    android:layout_width="50dp"
+                    android:layout_height="50dp"
+                    android:layout_marginRight="30dp"
+                    android:background="@drawable/tv_shui" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/pd_jia"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/tv_pds" />
+
+                <Button
+                    android:id="@+id/pd_xia"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tv_pdx" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <Button
+                    android:id="@+id/yl_jia"
+                    android:layout_width="60dp"
+                    android:layout_height="50dp"
+                    android:background="@drawable/tv_yl_jia" />
+
+                <Button
+                    android:id="@+id/yl_xia"
+                    android:layout_width="60dp"
+                    android:layout_height="match_parent"
+                    android:background="@drawable/tv_ylj" />
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="7"
+            android:gravity="bottom">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="30dp"
+                android:layout_marginLeft="30dp"
+                android:layout_marginRight="30dp"
+                android:layout_marginTop="30dp"
+                android:background="@drawable/tv_brow_background"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="30dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/pinDao1"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="1"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao4"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="4"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao7"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="7"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/tv_hk"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_hk"
+                        android:onClick="pinDaoOnClick"
+                        android:textColor="#db3838"
+                        android:textSize="25sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/pinDao2"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="2"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao5"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="5"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao8"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="8"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao0"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="0"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginLeft="25dp"
+                    android:layout_marginRight="30dp"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <Button
+                        android:id="@+id/pinDao3"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginTop="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="3"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao6"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="6"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/pinDao9"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_pd"
+                        android:onClick="pinDaoOnClick"
+                        android:text="9"
+                        android:textColor="#db3838"
+                        android:textSize="35sp" />
+
+                    <Button
+                        android:id="@+id/tv_sx"
+                        android:layout_width="match_parent"
+                        android:layout_height="0dp"
+                        android:layout_marginBottom="30dp"
+                        android:layout_weight="1"
+                        android:background="@drawable/tv_fh" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/lbiLayout"
+    >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:background="@drawable/light_zlb_bg">
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:gravity="bottom"
+                android:orientation="vertical"
+                >
+                <ImageView
+                    android:id="@+id/img_bi1"
+                    android:layout_gravity="center"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/light_bi_black"/>
+                <SeekBar
+                    android:id="@+id/seek_bi1"
+                    android:layout_marginTop="5dp"
+                    android:layout_marginBottom="30dp"
+                    android:layout_gravity="center"
+                    android:layout_width="160dp"
+                    android:progressDrawable="@drawable/sw_progress"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/my_thumb"
+                    android:max="100"
+                    android:progress="0"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="6"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <ToggleButton
+                        android:id="@+id/tb_bi_kai_g1"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="#00FAF7F7"
+                        android:layout_gravity="center"
+                        android:textOff="一关"
+                        android:textOn="一开"
+                        android:textColor="@color/light_bi"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/shuidi_left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <ToggleButton
+                        android:id="@+id/tb_bi_kai_g2"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="#00FAF7F7"
+                        android:layout_gravity="center"
+                        android:textOff="二关"
+                        android:textOn="二开"
+                        android:textColor="@color/light_bi"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/shuidi_left"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="right"
+                    android:orientation="horizontal">
+                    <ToggleButton
+                        android:id="@+id/tb_bi_kai_g3"
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:background="#00FAF7F7"
+                        android:layout_gravity="center"
+                        android:textOff="全关"
+                        android:textOn="全开"
+                        android:textColor="@color/light_bi"/>
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:background="@drawable/shuidi_left"/>
+                </LinearLayout>
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:orientation="vertical"
+                android:gravity="bottom"
+                android:layout_weight="6">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center"
+                        android:background="@drawable/shuidi_right"/>
+                    <Button
+                        android:onClick="lightBiOnClick"
+                        android:id="@+id/bt_bi_ldu"
+                        android:layout_width="90dp"
+                        android:layout_height="40dp"
+                        android:background="#00FAF7F7"
+                        android:text="查看灯光亮度"
+                        android:textColor="@color/white" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:gravity="center"
+                        android:background="@drawable/shuidi_right"/>
+                    <Button
+                        android:onClick="lightBiOnClick"
+                        android:id="@+id/bt_dinShi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#00FAF7F7"
+                        android:text="定时"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:gravity="left"
+                    android:orientation="horizontal">
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:layout_marginLeft="0dp"
+                        android:gravity="center"
+                        android:background="@drawable/shuidi_right"/>
+                    <Button
+                        android:onClick="lightBiOnClick"
+                        android:id="@+id/bt_qc_dinShi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:background="#00FAF7F7"
+                        android:text="清除定时"
+                        android:textColor="@color/white"
+                        />
+
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="9"
+                android:orientation="vertical"
+                android:gravity="top"
+                >
+                <ImageView
+                    android:id="@+id/img_bi2"
+                    android:layout_gravity="center"
+                    android:layout_marginTop="30dp"
+                    android:layout_width="130dp"
+                    android:layout_height="200dp"
+                    android:background="@drawable/light_bi_black"/>
+                <SeekBar
+                    android:id="@+id/seek_bi2"
+                    android:layout_marginTop="5dp"
+                    android:layout_width="160dp"
+                    android:layout_gravity="center"
+                    android:progressDrawable="@drawable/sw_progress"
+                    android:layout_height="wrap_content"
+                    android:thumb="@drawable/my_thumb"
+                    android:max="100"
+                    android:progress="0"/>
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+</LinearLayout>

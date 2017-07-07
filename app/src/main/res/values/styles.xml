@@ -1,0 +1,153 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:actionOverflowButtonStyle">@style/zhinengjiudianActionOverflowButtonStyle</item>
+    </style>
+    <style name="zhinengjiudianActionOverflowButtonStyle">
+        <item name="android:src">@drawable/actionbar_add_icon</item>
+    </style>
+    <style name="text_black_18">
+        <item name="android:textSize">18dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+    <style name="text_black_20">
+        <item name="android:textSize">20dp</item>
+        <item name="android:textColor">@android:color/black</item>
+    </style>
+
+
+
+
+
+    <style name="text_14">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="text_16">
+        <item name="android:textSize">16dp</item>
+    </style>
+
+    <style name="text_18">
+        <item name="android:textSize">18dp</item>
+    </style>
+
+    <style name="text_white_bold_22">
+        <item name="android:textSize">22dp</item>
+        <item name="android:textColor">@color/light_white</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Text">
+        <item name="android:textStyle">normal</item>
+    </style>
+
+    <!-- 标题1样式 -->
+    <style name="txt_titleStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">@color/white</item>
+    </style>
+    <!-- 内容1样式 -->
+    <style name="txt_ContextStyle1">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+    <!-- 图片样式 -->
+    <style name="img_Style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:contentDescription">@string/app_name</item>
+    </style>
+
+
+    <style name="TxtTitle" parent="@style/img_Style">
+        <item name="android:textSize">18sp</item>
+        <item name="android:textColor">#000000</item>
+        <item name="android:paddingLeft">6.0dip</item>
+        <item name="android:paddingRight">6.0dip</item>
+        <item name="android:focusable">false</item>
+    </style>
+    <style name="MMListCatalog">
+        <item name="android:textSize">14.0dip</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:background">@color/windows_color</item>
+        <item name="android:paddingLeft">10.0dip</item>
+        <item name="android:paddingTop">5.0dip</item>
+        <item name="android:paddingBottom">5.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMListItem">
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:orientation">horizontal</item>
+        <item name="android:paddingLeft">8.0dip</item>
+        <item name="android:paddingRight">4.0dip</item>
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+    </style>
+    <style name="MMFontTitleInList">
+        <item name="android:textSize">16.0dip</item>
+        <item name="android:textColor">#ff595c61</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+    </style>
+    <style name="MMFontTag">
+        <item name="android:textSize">12.0dip</item>
+        <item name="android:textColor">@color/white</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:paddingBottom">2dip</item>
+        <item name="android:paddingLeft">7dip</item>
+        <item name="android:paddingRight">7dip</item>
+        <item name="android:paddingTop">2dip</item>
+    </style>
+
+
+
+
+    <style name="Text.Title" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">20dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:gravity">center_horizontal</item>
+    </style>
+
+    <style name="Text.Title_Button" parent="@style/Text">
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">18dp</item>
+        <item name="android:singleLine">true</item>
+        <item name="android:ellipsize">marquee</item>
+        <item name="android:gravity">center</item>
+    </style>
+
+    <style name="home_button_style">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@drawable/home_buttons_bg</item>
+        <item name="android:layout_weight">1.0</item>
+    </style>
+    <!--壁灯的按钮的style-->
+    <style name="light_bi">
+        <item name="android:textColor">#FFF9BD06</item>
+    </style>
+
+
+</resources>

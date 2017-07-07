@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/biaoti">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="意见反馈"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/fk_fan_hui"
+            style="@style/Text.Title_Button"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fanhui1"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:onClick="titleOnClick"
+            android:paddingLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/shuaxin"
+            style="@style/Text.Title_Button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shuaxin1"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="titleOnClick"
+            android:paddingRight="5dp"
+            />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="请输入QQ号"
+            android:id="@+id/editText1"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:layout_alignBottom="@+id/imageButton"
+            android:paddingLeft="30dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="请输入手机号"
+            android:id="@+id/editText2"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:layout_alignBottom="@+id/imageButton"
+            android:paddingLeft="30dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="请输入邮箱"
+            android:id="@+id/editText3"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:layout_alignBottom="@+id/imageButton"
+            android:paddingLeft="30dp" />
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:inputType="textPassword"
+            android:ems="10"
+            android:hint="请输入您的意见"
+            android:id="@+id/editText4"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="0.04"
+            android:layout_alignBottom="@+id/imageButton"
+            android:paddingLeft="30dp" />
+
+    </RelativeLayout>
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="确定"
+        android:background="#9ABEDA"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="20dp" />
+</LinearLayout>

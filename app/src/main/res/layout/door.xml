@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/login_bg">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/biaoti">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="可视化门控"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/mk_fan_hui"
+            style="@style/Text.Title_Button"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fanhui1"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:onClick="titleOnClick"
+            android:paddingLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/shuaxin"
+            style="@style/Text.Title_Button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shuaxin1"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="titleOnClick"
+            android:paddingRight="5dp"
+            />
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center">
+        <Button
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:background="@drawable/login_bg"
+            android:text="可视化门控功能暂时还没开通   敬请期待"
+            android:textSize="50sp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

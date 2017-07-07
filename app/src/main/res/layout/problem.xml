@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:weightSum="1">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@color/biaoti">
+
+        <TextView
+            android:id="@+id/textView2"
+            style="@style/Text.Title"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="常见问题"
+            android:gravity="center" />
+
+        <Button
+            android:id="@+id/fanghui"
+            style="@style/Text.Title_Button"
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:background="@drawable/fanhui1"
+            android:drawablePadding="6dp"
+            android:layout_marginTop="4dp"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            android:onClick="titleOnClick"
+            android:paddingLeft="5dp"
+            />
+
+        <Button
+            android:id="@+id/shuaxin"
+            style="@style/Text.Title_Button"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/shuaxin1"
+            android:layout_marginTop="4dp"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:onClick="titleOnClick"
+            android:paddingRight="5dp"
+            />
+    </RelativeLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18dp"
+        android:text="1. 登录改软件,客户需输入账号"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="5dp"
+        android:textSize="18dp"
+        android:text="2. 若客户需修改密码，登录个人账号后，进入" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:layout_marginLeft="15dp"
+        android:text=" “账号信息”页面即可修改" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="60dp"
+        android:text="登录问题如仍未解决，请到“意见反馈”页面留下您的意见(*^▽^*) " />
+</LinearLayout>

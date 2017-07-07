@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">智能酒店</string>
+    <string name="action_search">查找</string>
+    <string name="action_add">添加</string>
+    <string name="menu_group_chat">发起群聊</string>
+    <string name="menu_feedback">意见反馈</string>
+    <string name="menu_addfriend">添加朋友</string>
+    <string name="menu_scan">扫一扫</string>
+    <string name="tab_contact">首页</string>
+    <string name="tab_found">功能</string>
+    <string name="gongneng">智能</string>
+    <string name="tab_me">我的</string>
+
+    <string name="d_Ju">客房灯控</string>
+
+    <string name="setting">设置</string>
+    <string name="about">关于</string>
+
+    <string name="wodezhanghao">我的账号</string>
+    <string name="z_tai">状态：</string>
+    <string name="curtain_tai">窗帘状态:</string>
+    <string name="zou_tai">走廊状态;</string>
+    <string name="top_tai">房顶灯状态:</string>
+    <string name="bed_tai">床头灯状态:</string>
+    <string name="floor_tai">落地灯状态:</string>
+    <string name="bi_tai">壁灯状态:</string>
+    <string name="tv_tai">电视状态:</string>
+    <string name="air_tai">空调状态:</string>
+    <string name="wc_tai">厕所状态:</string>
+
+    <string name="wc">厕所</string>
+    <string name="light_zoulang">走廊灯</string>
+    <string name="light_cesuo">厕所灯</string>
+    <string name="light_top">房顶灯</string>
+    <string name="light_bed">床头灯</string>
+    <string name="light_floor">落地灯</string>
+    <string name="light_bi">壁灯</string>
+    <string name="tv">电视机</string>
+    <string name="fan">厕所排风扇</string>
+    <string name="curtain">窗帘</string>
+    <string name="air">空调</string>
+    <string name="phone_name">更换手机号</string>
+    <string name="xin_xi">意见反馈</string>
+    <string name="ke_fang">客房管理服务</string>
+    <string name="yin_shi">隐私</string>
+    <string name="z_Hao">我的账号</string>
+    <string name="wo_zi">个人资料</string>
+    <string name="problem">常见问题</string>
+    <string name="default_progress">℃</string>
+
+
+
+</resources>
